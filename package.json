@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A command line natural language-ish GitHub querying machine, written test-first with modularity in mind.",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "github": "^9.2.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
